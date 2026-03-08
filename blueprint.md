@@ -1,31 +1,25 @@
-# Premium Lotto Experience - Project Blueprint
+# Vibrant Lucky Lotto - Project Blueprint
 
 ## Overview
-A high-end, professional Lotto number generation and management application. This project delivers a sophisticated user experience using modern web standards (Baseline), featuring a premium aesthetic, interactive animations, and functional history tracking.
+A bright, energetic, and colorful Lotto number generator. This version shifts from a dark premium look to a vibrant, high-energy aesthetic, featuring multi-game generation (5 games at once) and playful animations.
 
 ## Features
-- **Professional Number Generation**: Advanced random number generation for 6 unique numbers (1-45).
-- **Premium Visuals**: 
-  - Dynamic 3D lotto balls with realistic gradients and shadows.
-  - Authentic color coding based on number ranges.
-  - Glassmorphism UI elements with depth and tactile feel.
-- **Interactive Experience**:
-  - Sequential "drawing" animation for suspense.
-  - Interactive "History" section to track previous generations.
-  - Responsive design for mobile and desktop.
-- **Modern Tech Stack**:
-  - **Web Components**: Encapsulated `lotto-ball` and `result-card` components.
-  - **Modern CSS**: Container queries for component responsiveness, `:has()` for state-driven styling, and `oklch` for vibrant colors.
-  - **Vanilla JS**: ES Modules for clean, modular architecture.
+- **Multi-Game Generation**: Generates 5 unique sets of 6 numbers (1-45) with a single click.
+- **Vibrant Visuals**:
+  - Bright, colorful gradients and playful typography.
+  - Interactive 3D lotto balls with high-contrast colors.
+  - Glassmorphism with light, airy backgrounds and "glow" effects.
+- **Dynamic Experience**:
+  - Fast-paced "pop-in" animations for all 5 games.
+  - Clear separation between game sets for easy reading.
+  - History tracking for the latest multi-draw session.
 
 ## Visual Design Strategy
-- **Typography**: Expressive serif for headlines, clean sans-serif for numbers.
-- **Colors**: Deep midnight blue (#0f172a) for backgrounds, gold (#fde047) for highlights, and authentic lotto ball colors.
-- **Texture**: Subtle noise overlay for a premium feel.
-- **Effects**: Multi-layered drop shadows and elegant "glow" transitions.
+- **Typography**: Bold, rounded sans-serif for a friendly and energetic feel.
+- **Colors**: A spectrum of bright hues (Cyan, Magenta, Lime, Orange) against a clean, light background.
+- **Interactivity**: Buttons with "confetti" or "glow" hover states and bouncy animations.
 
 ## Implementation Steps
-1. **Core Infrastructure**: Update `index.html` with a semantic, layered structure.
-2. **Premium Styling**: Implement high-fidelity styles in `style.css` using CSS Variables and modern selectors.
-3. **Advanced Logic**: Enhance `main.js` with drawing sequences, history management, and custom element logic.
-4. **Optimization**: Ensure performance and accessibility (A11Y) standards.
+1. **Structural Update**: Modify `index.html` to support a grid or list of 5 game sets.
+2. **Bright Styling**: Overhaul `style.css` with a light theme and high-vibrancy accents.
+3. **Logic Enhancement**: Update `main.js` to loop the generation process 5 times and manage the UI for multiple sets.
