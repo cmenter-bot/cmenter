@@ -1,27 +1,31 @@
-# Lucky Lotto Picker - Project Blueprint
+# Premium Lotto Experience - Project Blueprint
 
 ## Overview
-A modern, responsive, and visually appealing web application for generating random lotto numbers (6 numbers between 1 and 45). The application focuses on a premium user experience with smooth animations, vibrant colors, and standard lotto ball color schemes.
+A high-end, professional Lotto number generation and management application. This project delivers a sophisticated user experience using modern web standards (Baseline), featuring a premium aesthetic, interactive animations, and functional history tracking.
 
 ## Features
-- **Lotto Number Generation**: Randomly selects 6 unique numbers from 1 to 45.
-- **Visual Color Coding**: Ball colors change based on their number range:
-  - 1-10: Yellow
-  - 11-20: Blue
-  - 21-30: Red
-  - 31-40: Gray
-  - 41-45: Green
-- **Interactive UI**: Animated ball pop-ins and hover effects.
-- **Modern Design**: Glassmorphism, deep shadows, and premium typography.
-- **Responsive Layout**: Works seamlessly on mobile and desktop.
+- **Professional Number Generation**: Advanced random number generation for 6 unique numbers (1-45).
+- **Premium Visuals**: 
+  - Dynamic 3D lotto balls with realistic gradients and shadows.
+  - Authentic color coding based on number ranges.
+  - Glassmorphism UI elements with depth and tactile feel.
+- **Interactive Experience**:
+  - Sequential "drawing" animation for suspense.
+  - Interactive "History" section to track previous generations.
+  - Responsive design for mobile and desktop.
+- **Modern Tech Stack**:
+  - **Web Components**: Encapsulated `lotto-ball` and `result-card` components.
+  - **Modern CSS**: Container queries for component responsiveness, `:has()` for state-driven styling, and `oklch` for vibrant colors.
+  - **Vanilla JS**: ES Modules for clean, modular architecture.
 
-## Technical Details
-- **HTML5**: Semantic structure and clean markup.
-- **Modern CSS (Baseline)**: CSS Variables, Container Queries, Flexbox/Grid, and Logical Properties.
-- **JavaScript (ES Modules)**: Clean logic for number generation and UI manipulation.
+## Visual Design Strategy
+- **Typography**: Expressive serif for headlines, clean sans-serif for numbers.
+- **Colors**: Deep midnight blue (#0f172a) for backgrounds, gold (#fde047) for highlights, and authentic lotto ball colors.
+- **Texture**: Subtle noise overlay for a premium feel.
+- **Effects**: Multi-layered drop shadows and elegant "glow" transitions.
 
-## Development Plan (Current Task)
-1. **Scaffold UI**: Update `index.html` with the main container and button controls.
-2. **Apply Styles**: Design a premium aesthetic in `style.css` using gradients and shadows.
-3. **Implement Logic**: Create the random generation and DOM manipulation logic in `main.js`.
-4. **Final Polish**: Ensure smooth transitions and accessibility.
+## Implementation Steps
+1. **Core Infrastructure**: Update `index.html` with a semantic, layered structure.
+2. **Premium Styling**: Implement high-fidelity styles in `style.css` using CSS Variables and modern selectors.
+3. **Advanced Logic**: Enhance `main.js` with drawing sequences, history management, and custom element logic.
+4. **Optimization**: Ensure performance and accessibility (A11Y) standards.
